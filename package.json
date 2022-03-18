@@ -1,0 +1,33 @@
+{
+  "name": "css-landscapes",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "host": "vite --host",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.0.7"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "@vitejs/plugin-vue": "^1.9.2",
+    "@vue/compiler-sfc": "^3.1.1",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "@vue/eslint-config-typescript": "^8.0.0",
+    "autoprefixer": "^10.3.6",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.5.0",
+    "eslint-plugin-lodash": "^7.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^7.18.0",
+    "postcss": "^8.2.7",
+    "tailwindcss": "^2.0.2",
+    "tailwindcss-pseudo-elements": "^2.0.0",
+    "typescript": "^4.2.3",
+    "vite": "^2.0.5"
+  }
+}
