@@ -50,8 +50,10 @@
 </template>
 
 <style scoped>
+@reference "tailwindcss";
+
 .el-1{
-  @apply absolute w-40 h-40 top-12 right-24 rounded-full bg-rose-200 bg-opacity-50
+  @apply absolute size-40 top-12 right-24 rounded-full bg-rose-200/50
 
   before:content-[''] before:absolute before:inset-2
   before:rounded-full before:bg-rose-200
@@ -132,9 +134,9 @@
 }
 
 .el-11{
-  @apply absolute top-2 right-12 w-full h-full bg-current rounded-4xl border-4 border-white
+  @apply absolute top-2 right-12 w-full h-full bg-current rounded-4xl border-16 border-white
 
-  before:content-[''] before:absolute before:border-2 before:border-white
+  before:content-[''] before:absolute before:border-8 before:border-white
   before:w-12 before:h-full before:right-6 before:-top-4
 
   after:content-[''] after:absolute after:bg-current after:rounded-2xl

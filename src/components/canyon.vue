@@ -1,8 +1,8 @@
 <template>
-  <div class="screen bg-warmGray-100">
-    <div class="circle bg-warmGray-200">
+  <div class="screen bg-taupe-100">
+    <div class="circle bg-taupe-200">
       <div class="content">
-        <div class="absolute text-warmGray-300 w-full h-full top-12 left-0">
+        <div class="absolute text-taupe-300 w-full h-full top-12 left-0">
           <div class="el-1" />
           <div class="el-2" />
           <div class="el-3" />
@@ -10,7 +10,7 @@
           <div class="el-5" />
         </div>
 
-        <div class="absolute text-warmGray-400 w-full h-full bottom-0 left-0">
+        <div class="absolute text-taupe-400 w-full h-full bottom-0 left-0">
           <div class="el-6" />
           <div class="el-7" />
           <div class="el-8" />
@@ -22,7 +22,7 @@
           <div class="el-14" />
         </div>
 
-        <div class="absolute text-warmGray-500 w-full h-full bottom-0 left-0">
+        <div class="absolute text-taupe-500 w-full h-full bottom-0 left-0">
           <div class="el-15 left-16 h-24 w-5">
             <div class="el-16 top-14" />
             <div class="el-17 top-10" />
@@ -34,7 +34,7 @@
           <div class="el-18" />
         </div>
 
-        <div class="absolute text-warmGray-600 w-full h-full bottom-0 left-0">
+        <div class="absolute text-taupe-600 w-full h-full bottom-0 left-0">
           <div class="el-19 bottom-20 left-6 w-16 h-16" />
           <div class="el-19 bottom-8 left-32 w-12 h-12" />
           <div class="el-19 bottom-16 right-12 w-24 h-24" />
@@ -52,6 +52,8 @@
 </template>
 
 <style scoped>
+@reference "tailwindcss";
+
 .el-1{
   @apply absolute top-0 left-44 w-6 h-12 bg-current
 
@@ -233,7 +235,7 @@
 
 .el-21{
   @apply absolute w-10 h-4 right-0 top-8
-  border-t-2 border-r-2 border-current rounded-tr-2xl
+  border-t-8 border-r-8 border-current rounded-tr-2xl
 
   before:content-[''] before:absolute before:bg-current
   before:w-10 before:h-10 before:-left-8 before:-top-6 before:rounded-full
@@ -241,7 +243,7 @@
 
 .el-22{
   @apply absolute w-10 h-8 right-0 bottom-14
-  border-b-2 border-l-2 border-current rounded-bl-2xl
+  border-b-8 border-l-8 border-current rounded-bl-2xl
 
   before:content-[''] before:absolute before:bg-current
   before:w-8 before:h-8 before:-left-6 before:-top-4 before:rounded-full
@@ -249,7 +251,7 @@
 
 .el-23{
   @apply absolute w-8 h-8 left-0 bottom-14
-  border-t-2 border-l-2 border-current rounded-tl-2xl
+  border-t-8 border-l-8 border-current rounded-tl-2xl
 
   before:content-[''] before:absolute before:bg-current
   before:w-10 before:h-10 before:-right-8 before:-top-5 before:rounded-full
@@ -257,7 +259,7 @@
 
 .el-24{
   @apply absolute w-10 h-8 left-0 top-6
-  border-b-2 border-r-2 border-current rounded-br-2xl
+  border-b-8 border-r-8 border-current rounded-br-2xl
 
   before:content-[''] before:absolute before:bg-current
   before:w-8 before:h-8 before:-right-5 before:-top-5 before:rounded-full

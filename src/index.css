@@ -1,17 +1,21 @@
-/*! @import */
-@tailwind base;
-@tailwind utilities;
+@import "tailwindcss";
 
-.screen{
-  @apply w-full h-screen overflow-hidden sticky top-0 flex items-center justify-center
+@theme {
+  --color-current: currentColor;
+  --color-inherit: inherit;
+  --radius-4xl: 2rem;
 }
 
-.circle{
-  @apply relative overflow-hidden w-96 h-96 rounded-full transition flex-shrink-0
-  transform scale-75 sm:scale-100 lg:scale-125 shadow-2xl
+@utility screen{
+  @apply w-full h-screen overflow-hidden sticky top-0 flex items-center justify-center;
 }
 
-.content{
+@utility circle{
+  @apply relative overflow-hidden w-96 h-96 rounded-full transition shrink-0
+  transform scale-75 sm:scale-100 lg:scale-125 shadow-2xl;
+}
+
+@utility content{
   @apply absolute w-96 h-96 top-1/2 left-1/2
-  transform -translate-x-1/2 -translate-y-1/2
+  transform -translate-x-1/2 -translate-y-1/2;
 }
